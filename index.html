@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Trapply - Food Delivery</title>
+    <link rel = "icon" href ="images/logo1.png" 
+        type = "image/x-icon"> 
+    <body style="background-color:#ffbb99;">
+      
+
+      <h2><span class="hd"></span></h2>
+
+      <img src="images\logo1.png" alt="trapple logo" class="trapple_logo">
+
+      <button
+        class="signup1"
+        onclick="document.getElementById('signup').style.display='block'"
+        style="width: auto;"
+      >
+        Sign Up
+      </button>
+
+      <div id="signup" class="food">
+        <span
+          onclick="document.getElementById('signup').style.display='none'"
+          class="close1"
+          title="Close Food"
+          >&times;</span
+        >
+        <form class="food-content animate" action="/signup.php">
+          <div class="container">
+            <h1 class="signup2">Sign Up</h1>
+            <p class="det1">Enter details to create account</p>
+            <hr />
+            <label for="email"><i class="fa fa-user" aria-hidden="true"></i><b> Email</b></label>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              required
+            />
+
+            <label for="phone"><i class="fa fa-phone-square" aria-hidden="true"></i><b> Phone</b></label>
+            <input
+              type="tel"
+              placeholder="Enter Phone Number"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              required
+            />
+
+            <label for="psw"><br><i class="fa fa-lock" aria-hidden="true"></i><b> Password</b></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="psw"
+              required
+            />
+            
+
+            <label for="psw-repeat"><i class="fa fa-lock" aria-hidden="true"></i><b> Repeat Password</b></label>
+            <input
+              type="password"
+              placeholder="Repeat Password"
+              name="psw-repeat"
+              required
+            />
+
+            <label>
+              <input
+                type="checkbox"
+                checked="checked"
+                name="remember"
+                style="margin-bottom: 15px"
+              />Remember Me
+            </label>
+            <p>
+              By creating an account, I accept the
+              <a href="t_and_c.html" target="_blank style="color: dodgerblue">Terms and Conditions</a>
+            </p>
+
+            <div class="clear">
+              <button
+                type="button"
+                onclick="document.getElementById('signup').style.display='none'"
+                class="cancelbtn"
+              >
+                Cancel
+              </button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+
+      <button class="login1" onclick="document.getElementById('login').style.display='block'" style="width:auto;"> 
+        Login
+      </button>
+
+      <div id="login" class="food1">
+        <form class="food1-content animate" action="/login.php" method="post"
+        >
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close food1">&times;</span
+            >
+            <img src="images\avatar.png" alt="Avatar" class="avatar" />
+          </div>
+          <h1 class="signup2"‎‎>‎‎‏‏‎‎‏ ‏‎ ‎Login</h1>
+
+          <div class="container">
+            <label for="uname"><i class="fa fa-user" aria-hidden="true"></i><b> Username</b></label>
+            <input
+              type="text" placeholder="Enter Username" name="uname" required/>
+
+            <label for="psw"><i class="fa fa-lock" aria-hidden="true"></i><b> Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required/>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember" />
+              Remember me
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button
+              type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn1">
+              Cancel
+            </button>
+            <span class="psw"><a href="forgot.html" target="_blank">Forgot Password?</a></span>
+          </div>
+        </form>
+      </div>
+
+      <img src="images\a.jpg" alt="Food" class="img1" />
+      <div class="txt1">Order food online from your favourite <br>restaurants nearby</div>
+
+      <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Search Food or Restaurant">
+        <a class="search-btn" href="#">
+      <i class="fa fa-search" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="flex0">
+        <div class="flex1">
+          <img src="images\doorstep.jpg" class="img2" />
+          <p class="p1">
+            Find restaurants and <br />cafés that deliver <br />right to your
+            doorstep
+          </p>
+        </div>
+
+        <div class="flex2">
+          <img src="images\menu.jpg" alt="menu" class="img2" />
+          <p class="p1">
+            Flip through the menus and make your order in seconds
+          </p>
+        </div>
+
+        <div class="flex3">
+          <img src="images\gps.jpg" alt="gps" class="img2" />
+          <p class="p1">
+            Track your order at all <br />times, from the restaurant <br />to
+            your doorstep
+          </p>
+        </div>
+      </div>
+
+      <div class="text3">WE CAN REACH</div>
+
+       <div class="cities">
+                <div class="city">AGARTALA</div>
+                <div class="city">AGRA</div>
+                <div class="city">AHMEDABAD</div>
+                <div class="city">AIZAWL</div>
+                <div class="city">AJMER</div>
+                <div class="city">ALAPPUZHA</div>
+                <div class="city">ALLAHABAD</div>
+                <div class="city">AMARAVATI</div>
+                <div class="city">AMRITSAR</div>
+                <div class="city">BANGALORE</div>
+                <div class="city">BELGAUM</div>
+                <div class="city">BELLARY</div>
+                <div class="city">BHARATPUR</div>
+                <div class="city">BHILAI</div>
+                <div class="city">BHOPAL</div>
+                <div class="city">BHUBANESWAR</div>
+                <div class="city">CHANDIGARH</div>
+                <div class="city">CHITTOOR</div>
+                <div class="city">COIMBATORE</div>
+                <div class="city">CUTTACK</div>
+                <div class="city">DEHRADUN</div>
+                <div class="city">DELHI</div>
+                <div class="city">DURGAPUR</div>
+                <div class="city">FIROZABAD</div>
+                <div class="city">GANDHINAGAR</div>
+                <div class="city">GUWAHATI</div>
+                <div class="city">HYDERABAD</div>
+                <div class="city">IMPHAL</div>
+                <div class="city">INDORE</div>
+                <div class="city">JAIPUR</div>
+                <div class="city">JAMMU</div>
+                <div class="city">JAMSHEDPUR</div>
+                <div class="city">KANPUR</div>
+                <div class="city">KOCHI</div>
+                <div class="city">KOLKATA</div>
+                <div class="city">KOTTAYAM</div>
+                <div class="city">LUCKNOW</div>
+                <div class="city">MADURAI</div>
+                <div class="city">MANGALORE</div>
+                <div class="city">MEERUT</div>
+                <div class="city">MIRZAPUR</div>
+                <div class="city">MUMBAI</div>
+                <div class="city">MYSORE</div>
+                <div class="city">NAGPUR</div>
+                <div class="city">NOIDA</div>
+                <div class="city">PATNA</div>
+                <div class="city">PUNE</div>
+                <div class="city">RANCHI</div>
+                <div class="city">SHIMLA</div>
+                <div class="city">SRINAGAR</div>
+                <div class="city">THIRUVANATHAPURAM</div>
+                <div class="city">THRISSUR</div>
+                <div class="city">VELLORE</div>
+                <div class="city">VISHAKHAPATNAM</div>
+                <div class="city">WARANGAL</div>
+                
+
+              
+       </div>
+       
+       <div class="f">
+        <span class="f-copy">Copyright &copy;  2020  Trapple</span>
+        <a style="text-decoration: none;color:white;float:right;" class="fa fa-instagram fa-3x social" href="http://www.instagram.com/trapple__" target="_blank"></a>
+      
+      </div>
+    
+    </body>
+  </head>
+</html> 

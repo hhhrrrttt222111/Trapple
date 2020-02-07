@@ -1,0 +1,58 @@
+body {
+    background-color: #ffff99;
+}
+
+.A0 {
+    padding-top: 0px;
+    
+}
+
+.tcimg {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 40px;
+    top: 30px;
+}
+
+.A1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 400px;
+    font-size: 30px;
+   
+
+}
+
+.A2, .A4, .A6 {
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
+    
+}
+
+
+.A3, .A5 {
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* .A4 {
+    padding-left: 400px;
+    padding-right: 400px;
+} */
+
+/* .A5 {
+    padding-left: 400px;
+    padding-right: 400px;
+} */
+
+
+/* .A6 {
+    padding-left: 400px;
+    padding-right: 400px;
+} */
+
+

@@ -1,0 +1,98 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+
+body {
+    background-color: #ffff99;
+}
+
+#highlighted {
+    background-color:orange;
+}
+
+#highlighted .container-fluid h1, 
+#highlighted .container-fluid p {
+    color: #fff;
+}
+
+#highlighted .container-fluid h1 {
+    font-size: 54px;
+    
+    font-family: Verlag,museo-sans,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #414141;
+    font-weight: 300;
+}
+
+#content {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.interior-page {
+    background-color: #ffff99;
+    padding-bottom: 30px;
+}
+
+#highlighted+#content.interior-page .interior-page-nav, 
+  .interior-page .interior-page-nav {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.B1 {
+    padding-left: 76px;
+    font-family: 'Times New Roman', Times;
+} 
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+     
+}
+ 
+
+.label-default {
+    background-color: #ffff99;
+    margin-top: 10px;
+     
+}
+
+.form-control {
+    border-radius: 0;
+      
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color:#f44336;
+     
+    
+    width: 100%;
+}
+
+
+.btn-block {
+    display: block;
+    
+}
+
+
+.btn {
+    padding: 8px 28px;
+    font-weight: 400;
+    -webkit-transition: background .3s ease-in;
+    transition: background .3s ease-in;
+    white-space: normal;
+    border-width: 0 0 1px;
+    
+}
+
+.content-area-right {
+    margin-top: 10px;
+    padding-left: 50px;
+    
+}
+ 
