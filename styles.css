@@ -265,26 +265,6 @@ hr {
   display: table;
 }
 
-.gallery {
-  position: absolute;
-  left: 350px;
-  top: 80px;
-  border-radius: 15px;  
-  background-color: #ffa64d;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.gallery:hover {
-  background-color: #663300;
-  color:#ffff99;
-}
-
 
 .flex0 {
   display: flex;
