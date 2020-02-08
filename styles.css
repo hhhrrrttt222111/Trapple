@@ -39,8 +39,9 @@ body {
 
 .txt1{
   padding-left: 50px;
+  padding-right: 900px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 2vw;
   
 }
 
@@ -89,6 +90,7 @@ body {
   right: 0;
   height: 85%;
   bottom: 200px;
+  max-width: 800px;
   background-size: cover;
   background-position: 100%;
   top: 0;
@@ -120,6 +122,7 @@ input[type="tel"]:focus {
   border-radius: 15px;
   margin-left: 70px;
   padding: 14px 20px;
+  z-index: 1;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -222,7 +225,10 @@ hr {
   justify-content: center;
   position: absolute;
   top: 700px;
+  bottom: -250px;
   flex-direction: row;
+  background-color: rgba(255,102,0,0.8 ) 
+  
 }
 
 .img2 {
@@ -234,9 +240,11 @@ hr {
 .flex1,
 .flex2,
 .flex3 {
+  padding-top: 10px;
   float: left;
   width: 50%;
   padding-left: 300px;
+  
 }
 
 .p1 {
@@ -245,24 +253,8 @@ hr {
   font-size: large;
 }
 
-/* .fixed-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-
-}
-
-.container0 {
-  width: 80%;
-  margin: 0 auto;
-  padding: 10px 0;
-  background-color: #b3b3ff;
-}
- */
-
  .text3 {
+   width: auto;
    position: absolute ;
    color: #4d0000;
    top: 970px; 
@@ -271,6 +263,7 @@ hr {
    padding-left: 80px;
    font-weight: 900 ;
    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+   
  }
 
 .cities {
@@ -300,35 +293,7 @@ hr {
 }
 
 
-/* .foot {
-  position: relative;
-  top: 1350px;
-  background-color: gray;
-  height: 100px;
-  
-} */
 
-@media screen and (max-width: 300px) {
-  .cancelbtn,
-  .signupbtn {
-    width: 100%;
-  }
-}
-
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
 
 .social:hover {
   -webkit-transform: scale(1.1);
@@ -344,3 +309,42 @@ hr {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
+
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media all and (max-width:300px){
+  button{
+    display: block;
+    
+  }
+}
+
+@media only screen and (min-device-width: 400px){
+  .img1 {
+      max-width: 800px;
+  }
+} 
