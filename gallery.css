@@ -75,7 +75,7 @@ body {
 #myImg8, #myImg9, #myImg10, #myImg11, #myImg12, #myImg13, #myImg14,
 #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20, #myImg21, 
 #myImg22, #myImg23, #myImg24, #myImg25, #myImg26 {
-  border-radius: 5px;
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.3s;
 }
