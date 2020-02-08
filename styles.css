@@ -300,48 +300,6 @@ hr {
   font-size: large;
 }
 
- .text3 {
-   
-   position: absolute ;
-   color: #4d0000;
-   top: 970px; 
-   font-size: 20px;
-   padding-top: 7px;
-   padding-left: 80px;
-   font-weight: 900 ;
-   font-family: Verdana, Geneva, Tahoma, sans-serif ;
-   
- }
-
-.cities {
-  width: auto;
-  display: flex;
-  background-color: #330000;
-  width: 1519px;
-  padding: 10px;
-  height: 1150px;
-  position: absolute;
-  margin-bottom: 0px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  left: 0px;
-  top: 1000px;
-}
-
-.cities div {
-  width: 250px;  
-  height: 100px;
-}
-
-.city {
-  padding-top: 30 px;
-  color: #ffcc80;
-  text-align: center;
-}
-
-
-
 
 .social:hover {
   -webkit-transform: scale(1.1);
