@@ -91,8 +91,7 @@ body {
   height: 85%;
   bottom: 200px;
   max-width: 800px;
-  background-size: cover;
-  background-position: 100%;
+  
   top: 0;
   border-radius:0px 0px 0px 150px;
 }
@@ -118,7 +117,7 @@ input[type="tel"]:focus {
 .signup1 {
   background-color: #00b300;
   position: absolute;
-  left: 550px;
+  left: 350px;
   border-radius: 15px;
   margin-left: 70px;
   padding: 14px 20px;
@@ -220,7 +219,7 @@ hr {
 
 .gallery {
   position: absolute;
-  left: 485px;
+  left: 350px;
   top: 110px;
   border-radius: 15px;  
   background-color: #ffa64d;
@@ -230,6 +229,7 @@ hr {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .gallery:hover {
