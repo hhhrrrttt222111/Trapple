@@ -218,6 +218,24 @@ hr {
   display: table;
 }
 
+.gallery {
+  position: absolute;
+  left: 485px;
+  top: 110px;
+  border-radius: 15px;  
+  background-color: #ffa64d;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.gallery:hover {
+  background-color: #663300;
+  color:#ffff99;
+}
 
 
 .flex0 {
