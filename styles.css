@@ -254,7 +254,7 @@ hr {
 }
 
  .text3 {
-   width: auto;
+   
    position: absolute ;
    color: #4d0000;
    top: 970px; 
@@ -267,6 +267,7 @@ hr {
  }
 
 .cities {
+  width: auto;
   display: flex;
   background-color: #330000;
   width: 1519px;
