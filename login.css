@@ -39,8 +39,8 @@ input[type=text], input[type=password] {
 
 
 .cancelbtn1 {
-  width: auto;
-  padding: 10px 18px;
+  width: 100%;
+  padding: 14px 20px;
   background-color: #f44336;
 }
 
@@ -109,6 +109,30 @@ span.psw {
   animation: animatezoom 0.6s
 }
 
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 15px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+  text-align: center;
+}
+
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
   to {-webkit-transform: scale(1)}
@@ -118,4 +142,6 @@ span.psw {
   from {transform: scale(0)} 
   to {transform: scale(1)}
 }
+
+
 
