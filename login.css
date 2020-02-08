@@ -16,12 +16,13 @@ input[type=text], input[type=password] {
 
 .login1 {
     background-color:#00b300;
-    position: absolute;
-    left: 450px;
+    position: absolute; 
+    left: 385px;
     border-radius: 15px;
+    z-index: 1;
+    margin: 8px 0;
     margin-left: 70px;
     padding: 14px 20px;
-    margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
