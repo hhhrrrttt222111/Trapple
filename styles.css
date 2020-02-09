@@ -87,11 +87,10 @@ body {
 
 .img1 {
   position: absolute;
-  right: 0;
-  height: 85%;
+  right: 0px;
+  height: auto;
   bottom: 200px;
-  max-width: 800px;
-  
+  max-width: 100%;
   top: 0;
   border-radius:0px 0px 0px 150px;
 }
@@ -124,23 +123,22 @@ body {
 
 #about {
   top: 20px;
-  
-  background-color: #4CAF50;
+  background-color: #ff3333;
 }
 
 #blog {
   top: 80px;
-  background-color: #2196F3; 
+  background-color: #e60000; 
 }
 
 #projects {
   top: 140px;
-  background-color: #f44336; 
+  background-color: #990000; 
 }
 
 #contact {
   top: 200px;
-  background-color: #555 
+  background-color: #4d0000; 
 }
 
 input[type="text"],
@@ -265,7 +263,7 @@ hr {
   display: table;
 }
 
-
+/* 
 .flex0 {
   display: flex;
   justify-content: center;
@@ -278,19 +276,43 @@ hr {
   
 }
 
+
+
+.flex1,
+.flex2,
+.flex3 {
+  padding-top: 10px;
+  max-width: auto;
+  min-width: auto;
+  padding-left: 160px;
+    
+} */
+
+
 .img2 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
 }
 
-.flex1,
-.flex2,
-.flex3 {
-  padding-top: 10px;
-  float: left;
-  width: 50%;
-  padding-left: 300px;
+.row1 {
+  
+  display: -webkit-flex;
+  padding-top: 150px;
+  display: flex;
+  
+  width: fit-content;
+  
+}
+
+.col1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 100px 100px 110px 100px;
+  background-color:#ff9933;
+
+  
   
 }
 
