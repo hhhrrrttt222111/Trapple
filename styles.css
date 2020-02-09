@@ -96,7 +96,6 @@ body {
   border-radius:0px 0px 0px 150px;
 }
 
-
 #mySidenav a {
   position: fixed; 
   left: -70px; 
@@ -124,22 +123,22 @@ body {
 
 #about {
   top: 20px;
-  background-color: #ff3333;
+  background-color: #ffb366;
 }
 
 #blog {
   top: 80px;
-  background-color: #e60000; 
+  background-color: #ffa64d; 
 }
 
 #projects {
   top: 140px;
-  background-color: #990000; 
+  background-color: #ff9933; 
 }
 
 #contact {
   top: 200px;
-  background-color: #4d0000; 
+  background-color: #ff8c1a; 
 }
 
 input[type="text"],
@@ -161,7 +160,7 @@ input[type="tel"]:focus {
 }
 
 .signup1 {
-  background-color: #00b300;
+  background-color: black;
   position: absolute;
   left: 350px;
   border-radius: 15px;
@@ -176,7 +175,8 @@ input[type="tel"]:focus {
 }
 
 .signup1:hover {
-  background-color: tomato;
+  color: black;
+  background-color: #ffaa00;
 }
 
 .signup2 {
@@ -311,7 +311,7 @@ hr {
   -ms-flex: 1;
   flex: 1;
   padding: 100px 100px 110px 100px;
-  background-color:#ff9933;
+  background-color:#ffd480;
 
   
   
