@@ -1,7 +1,9 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
 
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 input[type=text], input[type=password] {
@@ -15,7 +17,7 @@ input[type=text], input[type=password] {
 
 
 .login1 {
-    background-color:#00b300;
+    background-color:black;
     position: absolute; 
     left: 385px;
     border-radius: 15px;
@@ -34,7 +36,8 @@ input[type=text], input[type=password] {
 }
 
 .login1:hover {
-    background-color: tomato;
+    color: black;
+    background-color: #ffaa00;
   }
 
 
