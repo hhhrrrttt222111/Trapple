@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
-  background-color: #ffff99;
+  
+}
+
+body {
+  background: rgb(209,123,24);
+  background: linear-gradient(90deg, rgba(209,123,24,1) 42%, rgba(250,255,0,1) 100%);
 }
 
 .tcimg {
@@ -9,11 +14,12 @@
   width: 200px;
   left: 40px;
   top: 30px;
+  
 }
 
 .C1 {
   font-size: 40px;
-  color:#cc6600;
+  color: brown;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
