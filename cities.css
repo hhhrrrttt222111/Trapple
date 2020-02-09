@@ -3,12 +3,14 @@
   background-color: #ffff99;
 }
 
+
 p {
     font-size: 23px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 10px;
-    color: rebeccapurple;
+    color: #4d2800;
+    text-decoration: none;
 }
 
 .tcimg {
