@@ -16,7 +16,7 @@ body {
 .signup1 {
   background-color: black;
   position: absolute;
-  left: 235px;
+  left: 230px;
   border-radius: 15px;
   margin-left: 70px;
   padding: 14px 20px;
@@ -52,7 +52,7 @@ body {
 
 .trapple_logo{
   position: absolute;
-  padding-top: 20px;
+  padding-top: 70px;
   padding-left: 20px;
   height:45%;
   width: 20%
@@ -72,7 +72,7 @@ body {
 
 .search-box {
   position: absolute;
-  top:140px;
+  top:340px;
   right: 0px;
   background: #2f3640;
   height: 40px;
@@ -286,9 +286,12 @@ hr {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.row1 {
+/* .row1 {
   
   display: -webkit-flex;
   flex-direction: row;
@@ -298,24 +301,49 @@ hr {
   position: absolute;
   bottom: 0px;
   
-}
+} */
 
 .col1 {
-  position: static;
-  bottom: 0px;
+  position: absolute;
+  top:450px;
+  width: 100%;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   padding: 100px 100px 110px 100px;
   background-color:#ffd480;
- 
   
 }
 
+.col2 {
+   top:800px;
+  position: absolute;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 100px 100px 110px 100px;
+  background-color:#ffd480;
+}
+
+.col3 {
+  top:1150px;
+ position: absolute;
+ width: 100%;
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ padding: 100px 100px 110px 100px;
+ background-color:#ffd480;
+}
+
 .p1 {
-  text-align: left;
+  padding: 30px;
+  text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: large;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;;
 }
 
 
