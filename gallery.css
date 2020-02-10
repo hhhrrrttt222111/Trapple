@@ -4,8 +4,7 @@
 }
 
 body {
-  background: rgb(209,123,24);
-  background: linear-gradient(90deg, rgba(209,123,24,1) 42%, rgba(250,255,0,1) 100%);
+  background: black;
 }
 
 .tcimg {
