@@ -138,31 +138,36 @@ body {
   left: 0; 
 }
 
-.t1, .t2, .t3, .t4 {
+.t1, .t2, .t3, .t4, t5 {
   opacity: 0;
 }
 
-.t1:hover, .t2:hover, .t3:hover, .t4:hover{
+.t1:hover, .t2:hover, .t3:hover, .t4:hover, t5:hover{
   opacity: 1;
 }
 
-#about {
+#snaps {
   top: 20px;
   background-color: #ffb366;
 }
 
-#blog {
+#hotels {
   top: 80px;
   background-color: #ffa64d; 
 }
 
-#projects {
+#cities {
   top: 140px;
   background-color: #ff9933; 
 }
 
-#contact {
+#about {
   top: 200px;
+  background-color: #ff8c1a; 
+}
+
+#contact {
+  top: 260px;
   background-color: #ff8c1a; 
 }
 
