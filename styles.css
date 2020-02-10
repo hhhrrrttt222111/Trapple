@@ -3,6 +3,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/a.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 * {
   box-sizing: border-box;
@@ -12,8 +15,8 @@ body {
 .f{
   display: block;
   padding:9px;
-  width:100%;
-  position: relative;
+  width: 100%;
+  position: fixed ;
   bottom: 0px;
   background-color: #993300;
   color:white;
@@ -32,29 +35,35 @@ body {
 }
 
 .trapple_logo{
+  position: absolute;
   padding-top: 20px;
   padding-left: 20px;
-  height:20%;
+  height:45%;
   width: 20%
 }
 
 .txt1{
-  padding-left: 50px;
-  padding-right: 900px;
+  position: absolute;
+  top: 360px;
+  padding-left: 550px;
+  padding-bottom: 100px;
+  color:black;  
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2vw;
+  font-size: 30px;
+  z-index: 1;
   
 }
 
 .search-box {
   position: relative;
-  top:30px;
+  top:350px;
   left: 70px;
   background: #2f3640;
   height: 40px;
   border-radius: 40%;
   padding: 10px;
   width: 400px;
+  z-index: 1;
 
 }
 
@@ -162,7 +171,7 @@ input[type="tel"]:focus {
 .signup1 {
   background-color: black;
   position: absolute;
-  left: 350px;
+  left: 235px;
   border-radius: 15px;
   margin-left: 70px;
   padding: 14px 20px;
@@ -264,31 +273,6 @@ hr {
   display: table;
 }
 
-/* 
-.flex0 {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 700px;
-  bottom: -250px;
-  flex-direction: row;
-  width: auto;
-  background-color: rgba(255,102,0,0.8 ) 
-  
-}
-
-
-
-.flex1,
-.flex2,
-.flex3 {
-  padding-top: 10px;
-  max-width: auto;
-  min-width: auto;
-  padding-left: 160px;
-    
-} */
-
 
 .img2 {
   border-radius: 50%;
@@ -301,17 +285,21 @@ hr {
   display: -webkit-flex;
   padding-top: 150px;
   display: flex;
-  
-  width: fit-content;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
   
 }
 
 .col1 {
+  position: static;
+  bottom: 0px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   padding: 100px 100px 110px 100px;
   background-color:#ffd480;
+  
 
   
   
