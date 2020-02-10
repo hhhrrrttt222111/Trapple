@@ -1,144 +1,382 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
-
+@import "https://kit.fontawesome.com/a076d05399.js";
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/a.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
+* {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 
-.login1 {
-    background-color:black;
-    position: absolute; 
-    left: 85px;
-    border-radius: 15px;
-    z-index: 1;
-    margin: 8px 0;
-    margin-left: 70px;
-    padding: 14px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.login1:hover {
-  opacity: 0.8;
-}
-
-.login1:hover {
-    color: black;
-    background-color: #ffaa00;
-  }
-
-
-.cancelbtn1 {
+.signup1 {
+  background-color: black;
+  position: absolute;
+  left: 230px;
+  border-radius: 15px;
+  margin-left: 70px;
+  padding: 14px 20px;
+  z-index: 2;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
   width: 100%;
+  opacity: 0.9;
+}
+
+.f{
+  display: block;
+  padding:9px;
+  width: 100%;
+  position: fixed ;
+  bottom: 0px;
+  background-color: #993300;
+  color:white;
+  text-align: center;
+  height: 57px;
+ }
+ 
+ .f-copy{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 20px;
+ }
+
+.hd {
+  font-size: 40px;
+  color: violet;
+}
+
+.trapple_logo{
+  position: absolute;
+  padding-top: 70px;
+  padding-left: 20px;
+  height:45%;
+  width: 20%
+}
+
+.txt1{
+  position: absolute;
+  top: 360px;
+  padding-left: 550px;
+  padding-bottom: 100px;
+  color:black;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  
+  
+}
+
+.search-box {
+  position: absolute;
+  top:340px;
+  right: 0px;
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40%;
+  padding: 10px;
+  width: 400px;
+  
+
+}
+
+.search-btn {
+  color: #e84118;
+  float: right;
+  width: 45px;
+  height: 45px; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  padding-left: 20px;
+  
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color : rgb(218, 122, 32);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 30px;
+}
+
+.img1 {
+  position: absolute;
+  right: 0px;
+  height: auto;
+  bottom: 200px;
+  max-width: 100%;
+  top: 0;
+  border-radius:0px 0px 0px 150px;
+}
+
+#mySidenav a {
+  position: fixed; 
+  left: -70px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white;
+  border-radius: 0 5px 5px 0; 
+  z-index: 1;
+}
+
+#mySidenav a:hover {
+  left: 0; 
+}
+
+.t1, .t2, .t3, .t4, t5 {
+  opacity: 0;
+}
+
+.t1:hover, .t2:hover, .t3:hover, .t4:hover, t5:hover{
+  opacity: 1;
+}
+
+#snaps {
+  top: 20px;
+  background-color: #ffb366;
+}
+
+#hotels {
+  top: 80px;
+  background-color: #ffa64d; 
+}
+
+#cities {
+  top: 140px;
+  background-color: #ff9933; 
+}
+
+#about {
+  top: 200px;
+  background-color: #ff8c1a; 
+}
+
+#contact {
+  top: 260px;
+  background-color: #ff8c1a; 
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffcce0;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+.signup1:hover {
+  color: black;
+  background-color: #ffaa00;
+}
+
+.signup2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  background-color: #00b300;
+  top: 10px;
+  border-radius: 15px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
-
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 10%;
-  border-radius: 50%;
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
 }
 
 .container {
   padding: 16px;
+  
 }
 
-.psw {
-  position: absolute;
-  top: 600px;
-  right: 200px;
-  float: right;
+.food {
+  display: none;
+  position: fixed;
   z-index: 1;
-  padding-top: 16px;
-}
-
-
-.food1 {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%; 
-  overflow: auto; 
+  height: 100%;
+  overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
-  padding-top: 60px;
+  padding-top: 50px;
   overflow: hidden;
 }
 
-
-.food1-content {
+.food-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; 
+  margin: 5% auto 15% auto;
   border: 1px solid #888;
-  width: 80%; 
+  width: 80%;
 }
 
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
 
-.close {
+.close1 {
   position: absolute;
-  right: 25px;
+  right: 175px;
+  top: 140px;
   color: #000;
   font-size: 35px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
-  color: red;
+.close1:hover,
+.close1:focus {
+  color: #f44336;
   cursor: pointer;
 }
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.img2 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .row1 {
+  
+  display: -webkit-flex;
+  flex-direction: row;
+  padding-top: 150px;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  
+} */
+
+.col1 {
+  position: absolute;
+  top:450px;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 100px 100px 110px 100px;
+  background-color:#ffd480;
+  
+}
+
+.col2 {
+   top:800px;
+  position: absolute;
+  width: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 100px 100px 110px 100px;
+  background-color:#ffd480;
+}
+
+.col3 {
+  top:1150px;
+ position: absolute;
+ width: 100%;
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ padding: 100px 100px 110px 100px;
+ background-color:#ffd480;
+}
+
+.p1 {
+  padding: 30px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;;
+}
+
+
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.social{
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transform-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
 
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
 
-.btn {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-  margin: 5px 0;
-  opacity: 0.85;
-  display: inline-block;
-  font-size: 17px;
-  border-radius: 15px;
-  line-height: 20px;
-  text-decoration: none; 
+
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
 }
 
-.btn:hover {
-  opacity: 1;
-}
 
-.fb {
-  background-color: #3B5998;
-  color: white;
-  text-align: center;
-}
 
 @-webkit-keyframes animatezoom {
   from {-webkit-transform: scale(0)} 
@@ -150,5 +388,16 @@ img.avatar {
   to {transform: scale(1)}
 }
 
+@media all and (max-width:300px){
+  button{
+    display: block;
+    
+  }
+}
 
+@media only screen and (min-device-width: 400px){
+  .img1 {
+      max-width: 800px;
+  }
+} 
 
