@@ -283,6 +283,7 @@ hr {
 .row1 {
   
   display: -webkit-flex;
+  flex-direction: row;
   padding-top: 150px;
   display: flex;
   width: 100%;
@@ -299,9 +300,7 @@ hr {
   flex: 1;
   padding: 100px 100px 110px 100px;
   background-color:#ffd480;
-  
-
-  
+ 
   
 }
 
@@ -365,3 +364,4 @@ hr {
       max-width: 800px;
   }
 } 
+
