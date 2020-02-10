@@ -19,7 +19,7 @@ input[type=text], input[type=password] {
 .login1 {
     background-color:black;
     position: absolute; 
-    left: 385px;
+    left: 85px;
     border-radius: 15px;
     z-index: 1;
     margin: 8px 0;
