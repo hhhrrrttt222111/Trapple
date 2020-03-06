@@ -1,225 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
- 
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="login.css" />
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
     <title>Trapple - Food Delivery</title>
-    <link rel = "icon" href ="images/logo1.png" 
-        type = "image/x-icon"> 
-    <body style="background-color: #ffeecc;">
-      
-
-      <h2><span class="hd"></span></h2>
-
-      <img src="images\logo1.png" alt="trapple logo" class="trapple_logo">
-      <!-- <img src="images\a.jpg" alt="Food" class="img1" /> -->
-
-      <div id="mySidenav" class="sidenav">
-        <a href="gallery.html" id="snaps"><div class="t1">Snaps</div></a>
-        <a href="restaurants.html" target="_blank" id="hotels"><div class="t1">Hotels</div></a>
-        <a href="cities.html" target="_blank" id="cities"><div class="t1">Cities</div></a>
-        <a href="about.html" target="_blank" id="about"><div class="t1">About</div></a>
-        <a href="contact.html" target="_blank" id="contact"><div class="t1">Contact</div></a>
-      </div>
-
-      <button
-        class="signup1"
-        onclick="document.getElementById('signup').style.display='block'"
-        style="width: auto;"
-      >
-        Sign Up
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-md sticky top">
+      <a class="navbar-brand" href="images\logo1.png" target="_blank">
+      <img src="images\logo1.png" width="70", height="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
       </button>
+    
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="gallery.html">Snaps</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="restaurants.html" target="_blank">Hotels</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="cities.html" target="_blank">Cities</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html" target="_blank">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+          </li>       
+        </ul>
 
-      <div id="signup" class="food">
-        <span
-          onclick="document.getElementById('signup').style.display='none'"
-          class="close1"
-          title="Close Food"
-          >&times;</span
-        >
-        <form class="food-content animate" action="404.html">
-          <div class="container">
-            <h1 class="signup2">Sign Up</h1>
-            <p class="det1">Enter details to create account</p>
-            <hr />
-            <label for="email"><i class="fa fa-user" aria-hidden="true"></i><b> Email</b></label>
-            <input
-              type="text"
-              placeholder="Enter Email"
-              name="email"
-              required
-            />
-
-            <label for="phone"><i class="fa fa-phone-square" aria-hidden="true"></i><b> Phone</b></label>
-            <input
-              type="tel"
-              placeholder="Enter Phone Number"
-              name="phone"
-              pattern="[0-9]{10}"
-              required
-            />
-
-            <label for="psw"><br><i class="fa fa-lock" aria-hidden="true"></i><b> Password</b></label>
-            <input
-              type="password"
-              placeholder="Enter Password"
-              name="psw"
-              required
-            />
-            
-
-            <label for="psw-repeat"><i class="fa fa-lock" aria-hidden="true"></i><b> Repeat Password</b></label>
-            <input
-              type="password"
-              placeholder="Repeat Password"
-              name="psw-repeat"
-              required
-            />
-
-            <label>
-              <input
-                type="checkbox"
-                checked="checked"
-                name="remember"
-                style="margin-bottom: 15px"
-              />Remember Me
-            </label>
-            <p>
-              By creating an account, I accept the
-              <a href="t_and_c.html" target="_blank" style="color: dodgerblue">Terms and Conditions</a>
-            </p>
-
-            <div class="clear">
-              <button
-                type="button"
-                onclick="document.getElementById('signup').style.display='none'"
-                class="cancelbtn"
-              >
-                Cancel
-              </button>
-              <button type="submit" class="signupbtn">Sign Up</button>
+        <ul class="nav navbar-nav navbar-right">
+          <div class="popup-container">
+            <label class="popup-button" for="login-popup">Login</label>
+            <input type="checkbox" id="login-popup">
+            <div class="popup">
+              <label for="login-popup" class="transparent-label"></label>
+              <div class="popup-inner">
+                <div class="popup-title">
+                  <h6>Sign Up</h6>
+                  <label for="login-popup" class="popup-close-btn">Close</label>
+                </div>
+                <div class="popup-content">
+                  <form action="">
+                    <ul>
+                      <li>
+                        <input type="text" placeholder="Name">
+                      </li>
+                      <li>
+                       <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="text" placeholder="Phone">
+                      </li>
+                      <li>
+                        <input type="text" placeholder="Username">
+                      </li>
+                      <li>    
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <button type="submit">Log in</button>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-        </form>
+          <li class="nav-item active">
+            
+          </li>
+        </ul>
       </div>
-
-
-
-      <button class="login1" onclick="document.getElementById('login').style.display='block'" style="width:auto;"> 
-        Login
-      </button>
-
-      <div id="login" class="food1">
-        <form class="food1-content animate" action="404.html" method="post"
-        >
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close food1">&times;</span
-            >
-            <img src="images\avatar.png" alt="Avatar" class="avatar" />
-          </div>
-          <h1 class="signup2"‎‎>‎‎‏‏‎‎‏ ‏‎ ‎Login</h1>
-
-          <div class="container">
-            <label for="uname"><i class="fa fa-user" aria-hidden="true"></i><b> Username</b></label>
-            <input
-              type="text" placeholder="Enter Username" name="uname" required/>
-
-            <label for="psw"><i class="fa fa-lock" aria-hidden="true"></i><b> Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required/>
-
-            <button type="submit">Login</button>
-
-            <a href='https://www.facebook.com/login' class="fb btn" target="_blank">
-              <i class="fa fa-facebook fa-fw"></i>Login with Facebook
-            </a>
-
-            <label>
-              <input type="checkbox" checked="checked" name="remember" />
-              Remember me
-            </label>
-          </div>
-
-          <div class="container" style="background-color:#f1f1f1">
-            <button
-              type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn1">
-              Cancel
-            </button>
-            <span class="psw"><a href="forgot.html" target="_blank">Forgot Password?</a></span>
-          </div>
-        </form>
-      </div>
-
-
       
-      <!-- <div class="txt1">Order food online from your favourite restaurants nearby</div> -->
+    </nav>
 
-      <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Search Food or Restaurant">
-        <a class="search-btn" href="404.html">
-      <i class="fa fa-search" aria-hidden="true"></i>
-        </a>
+   
+
+    <div class="jumbotron jumbotron bg-cover">
+      <div class="overlay"></div>
+      <div class="container">
+        <h1 class="display-3 mb-1">Trapple</h1>
+        <p class="lead"> <span>Food Delivery</span></p>        
       </div>
-
-
-      <!-- <div class="row1">
-        <div class="col1"><img src="images\doorstep.jpg" class="img2" />
-          <p class="p1">
-            Find restaurants and cafés that deliver right to your
-            doorstep
-          </p>
-        </div>
-        <div class="col1"><img src="images\menu.jpg" alt="menu" class="img2" />
-          <p class="p1">
-            Flip through the menus and make your order in seconds
-          </p>
-        </div>
-        <div class="col1"><img src="images\gps.jpg" alt="gps" class="img2" />
-          <p class="p1">
-            Track your order at all times, from the restaurant to
-            your doorstep
-          </p>
+    </div>
+  
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+           <form class="form-inline">
+        <input class="form-control mr-sm-2"  type="text" placeholder="Food / Restaurant">
+        
+        <button class="btn btn-outline my-2 my-sm-0" type="submit">Search<a href="404.html"></a></button>
+    </form>
+          <h3>Explore curated lists of top restaurants, cafes, pubs, and bars nearby, based on trends</h3>
         </div>
       </div>
+    </div>
 
-       -->
-
-       <div class="col1"><img src="images\doorstep.jpg" class="img2" />
-        <p class="p1">
-          Find restaurants and cafés that deliver right to your
-          doorstep
-        </p>
+    <section class="container pt-3 mb-3">
+      <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+      <img class="img-fluid" src="images\doorstep.jpg">
       </div>
-
-      <div class="col2"><img src="images\menu.jpg" alt="menu" class="img2" />
-        <p class="p1">
-          Flip through the menus and make your order in seconds
-        </p>
+      <div class="col-md-6 order-2 order-md-1">
+      <div class="row" id="change-align">
+          <div class="col-10 col-lg-8">
+          <h2>Find restaurants and cafés that deliver right to your doorstep</h2>  <br>
+          </div>
       </div>
-
-      <div class="col3"><img src="images\gps.jpg" alt="gps" class="img2" />
-        <p class="p1">
-          Track your order at all times, from the restaurant to
-          your doorstep
-        </p>
+      </div>       
       </div>
+  </section>
 
-
-
-
-      
-
-       <div class="f">
-        <span class="f-copy">Copyright &copy;  2020  Trapple</span>
-        <a style="text-decoration: none;color:white;float:right;" class="fa fa-instagram fa-3x social" href="http://www.instagram.com/trapple__" target="_blank"></a>
-      
+  <section class="container pt-3 mb-3">
+      <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+      <img class="img-fluid" src="images\menu.jpg">
       </div>
-    
-    </body>
-  </head>
-</html> 
+      <div class="col-md-6 order-2 order-md-1">
+      <div class="row">
+          <div class="col-10 col-lg-8">
+          <h2>Flip through the menus and make your order in seconds</h2> <br>
+          </div>
+      </div>
+      </div>       
+      </div>
+  </section>
+
+  <section class="container pt-3 mb-3">
+      <div class="row align-items-center content">
+      <div class="col-md-6 order-1  order-md-2">
+      <img class="img-fluid" src="images\gps.jpg">
+      </div>
+      <div class="col-md-6 order-2 order-md-1">
+      <div class="row" id="change-align">
+          <div class="col-10 col-lg-8">
+          <h2>Track your order at all times, from the restaurant to your doorstep</h2> <br>
+          </div>
+      </div>
+      </div>       
+      </div>
+  </section>
+
+  <div class="f">
+    <span class="f-copy">Copyright &copy;  2020  Trapple</span>
+    <a style="text-decoration: none;color:white;float:right;" class="fa fa-instagram fa-3x social" href="http://www.instagram.com/__trapple__" target="_blank"></a>
+  
+  </div>
+  
+ 
+
+
+
+
+      <script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
