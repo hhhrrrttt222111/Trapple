@@ -9,11 +9,19 @@
 }
 
 
-.navbar {
+/*.navbar {
   background-color: #ffdd99;
 
 
+}*/
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='brown' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+.navbar-toggler {
+  border-color: black;
+} 
 
  a {
   color: #993300;
@@ -21,20 +29,35 @@
   font-weight: 500;
 }
 
-a:hover {
-  color: #cc4400;
+ul a:hover {
+  background-color: #FFFF00;
+
+    color: #FFC0CB;
+
 }
 
 
-.navbar-toggler {
-  background-color: #000;
-  border-radius: 30px;
+
+/*.navbar-toggler {
+  background-color: white;
   
+  
+}*/
+
+
+
+::placeholder{
+    text-align: center; 
 }
 
 
-
-
+.form-inline input{
+  margin-left: 18%;
+   border-radius: 25px;
+}
+.form-inline input:focus{
+     width: 60%;
+}
 
 
 .jumbotron {
@@ -87,6 +110,7 @@ a:hover {
   margin-right: auto;
 }
 
+
 h3 {
   padding-top: 30px;
   font-family: 'Josefin Sans', sans-serif;
@@ -100,7 +124,7 @@ h2 {
 
 .f {
   display: block;
-  padding: 9px;
+  padding: 8px;
   width: 100%;
   position: relative;
   bottom: 0px;
@@ -110,6 +134,7 @@ h2 {
   height: 57px;
 }
 
+
 .form-control {
   background-color: #ffffb3;
 
@@ -118,7 +143,7 @@ h2 {
 .btn {
   background-color: #e6b800;
 }
-
+ 
 
 
 
@@ -233,3 +258,4 @@ body {
 .popup-container > input:checked + .popup .popup-inner {
   top: 50%;
 }
+ 
