@@ -82,7 +82,7 @@ body {
 #myImg22, #myImg23, #myImg24, #myImg25, #myImg26 {
   border-radius: 15px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 #myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, 
@@ -93,6 +93,7 @@ body {
 #myImg21:hover, #myImg22:hover, #myImg23:hover, #myImg24:hover, 
 #myImg25:hover, #myImg26:hover {
   opacity: 0.7;
+  transform:scale(1.3);
 }
 
 .modal {
