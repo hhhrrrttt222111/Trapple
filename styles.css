@@ -10,19 +10,19 @@
 
 
 .navbar {
-  background-color: #ffdd99;
+  background-color: #efa30b;
 
 
 }
 
  a {
-  color: #993300;
+  color: #692706;
   font-size: 20px;
   font-weight: 500;
 }
 
 a:hover {
-  color: #cc4400;
+  color: #ec631e;
 }
 
 
@@ -46,7 +46,7 @@ a:hover {
 }
 
 .lead span {
-  color: orange;
+  color: #9e6e16;
   font-weight: bold;
 
 }
@@ -104,7 +104,7 @@ h2 {
   width: 100%;
   position: relative;
   bottom: 0px;
-  background-color: #993300;
+  background-color: #bb4206;
   color: white;
   text-align: center;
   height: 57px;
