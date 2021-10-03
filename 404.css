@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Poppins;
     min-height: 100vh;
     background: rgb(38,214,27);
     background: radial-gradient(circle, rgba(38,214,27,1) 0%, rgba(198,35,14,1) 100%);
@@ -17,10 +18,10 @@ body {
 }
 
 .container h1 {
-    font-size: 130px;
+    font-size: 125px;
     margin: 0px;
     font-weight: 900;
-    letter-spacing: 20px;
+    letter-spacing: 18px;
     background: url(images/404.jpg) center no-repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -31,10 +32,10 @@ button {
     text-decoration: none;
     background: #e55039aa;
     color: #fff;
-    padding: 12px 24px;
+    padding: 14px 26px;
     display: inline-block;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
     transition: 0.4s;
 
