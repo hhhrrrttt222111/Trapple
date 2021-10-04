@@ -10,20 +10,20 @@ body {
 
 
 p {
-    font-size: 25px;
+    font-size: 24px;
     font-family: Poppins;
     text-align: center;
-    padding: 12px;
+    padding: 13px;
     color: black;
     text-decoration: none;
 }
 
 .tcimg {
     position: relative;
-    height: 210px;
-    width: 210px;
-    left: 40px;
-    top: 30px;
+    height: 211px;
+    width: 211px;
+    left: 41px;
+    top: 31px;
     
   }
 
@@ -34,14 +34,14 @@ body {
 
 .header {
   text-align: center;
-  padding: 30px;
+  padding: 31px;
   color: brown;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3px;
+  padding: 0 4px;
 }
 
 .column {
@@ -51,7 +51,7 @@ body {
 }
 
 .column img {
-  margin-top: 6px;
+  margin-top: 5px;
   vertical-align: middle;
 }
 
