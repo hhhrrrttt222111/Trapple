@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff99;
+}
+
+.tcimg {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  left: 40px;
+  top: 30px;
+  
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  font-size: 30px;
+  color: #e64d00;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00b300;
+  color: white;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+input[type=submit]:hover {
+  background-color: tomato;
+}
+
+.container {
+  border-radius: 6px;
+  background-color: #ffff99;
+  padding: 20px;
+}   
