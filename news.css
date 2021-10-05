@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+
+
+
+
+body {
+    padding: 0;
+    border: 0;
+    background-image: linear-gradient(red,yellow,orange );
+
+}
+
+.single-blog {
+    background-image: radial-gradient( circle 513px at 52.1% 52.6%,  rgba(240,241,163,1) 0%, rgba(236,135,135,1) 90% );
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.single-blog img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.blog-meta {
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+
+.single-blog span {
+    float: right;
+    font-size: 12px;
+    color: black;                                                                                                       
+}
+
+.blog-text {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fondamento', cursive;
+}
+
+.name_link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.name_link:hover {
+    text-decoration: none;
+    color: #212529;
+}
