@@ -1,0 +1,53 @@
+body {
+    background: rgb(193,209,24); 
+    background: linear-gradient(270deg, rgba(193,209,24,1) 40%, rgba(250,255,0,1) 63%);
+}
+
+.A0 {
+    padding-top: 0px;
+    
+}
+
+.tcimg {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 40px;
+    top: 30px;
+}
+
+.A1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 400px;
+    font-size: 35px;
+}
+
+.A2 {
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 25px;
+    
+    
+}
+
+
+
+@media screen and (max-width: 801px) {
+    .A2 {
+      font-size: 20px;
+      padding-left: 100px;
+    padding-right: 100px;
+    }
+  }
+  
+
+   
+  @media screen and (max-width: 801px) {
+    .A1 {
+        padding-left: 100px;
+        font-size: 30px;
+    }
+  }
+    
+
